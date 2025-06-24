@@ -39,6 +39,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            SumaDosNumeros()
+            /*
             val navController = rememberNavController()
             NavHost(navController = navController, startDestination = "inicio") {
                 composable("inicio") { PantallaInicio(navController) }
@@ -47,6 +49,7 @@ class MainActivity : ComponentActivity() {
                     PantallaDetalle(navController, nombre)
                 }
                 }
+            */
         }
     }
 }
